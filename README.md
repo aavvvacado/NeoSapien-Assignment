@@ -10,7 +10,7 @@ Mobile-only anonymous file transfer: **short-code addressing**, **Supabase** rel
 |-------------|-------------|
 | **Installable Android build** | `flutter build apk --release` → `build/app/outputs/flutter-apk/app-release.apk` (use signed build if reviewers require it). |
 | **Source code** | This repository: [github.com/aavvvacado/NeoSapien-Assignment-](https://github.com/aavvvacado/NeoSapien-Assignment-) (or zip via Google Drive if preferred). |
-| **Secrets** | Only **`.env.example`** in repo. Copy to `.env` locally; never commit real keys. |
+
 | **README** | This file: run instructions, devices tested, architecture, transport rationale, platform channels, **Section 3** coverage, limitations, AI usage. |
 
 **iOS:** This submission is **Android-first** (see limitations). iOS is not the primary evaluated surface.
@@ -53,18 +53,7 @@ flutter build apk --release
 
 ---
 
-## Devices and OS tested
 
-_Update this table before you submit._
-
-| Role | Device / emulator | OS / API | Notes |
-|------|-------------------|----------|--------|
-| Sender | _e.g. Pixel 7_ | _API 34_ | _Wi‑Fi / LTE_ |
-| Receiver | _e.g. second phone or emulator_ | _API __ | _…_ |
-
-**Brief minimum:** Android ↔ Android on two physical phones, **or** one physical + one emulator (**not** two emulators only).
-
----
 
 ## Architecture (client → relay → storage)
 
